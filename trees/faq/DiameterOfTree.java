@@ -1,4 +1,4 @@
-package trees;
+package trees.faq;
 
 import trees.levelordertraversals.TreeNode;
 
