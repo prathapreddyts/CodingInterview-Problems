@@ -12,7 +12,9 @@ public class NumberOfIslands_Diagonal_Include {
         int rows = grid.length;
         int cols = grid[0].length;
         int[][] directions = {
-                {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+                {1, 0}, {-1, 0}, {0, 1}, {0, -1}, // Up, Down, Left, Right
+                {-1, -1}, {-1, 1}, {1, -1}, {1, 1} // Diagonal movements
+        };
 
         Queue<int[]> queue = new LinkedList<>();
 

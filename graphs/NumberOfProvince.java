@@ -12,7 +12,6 @@ public class NumberOfProvince {
         List<List<Integer>> adjacencyList = convertToAdjacencyList(n, adj);
         boolean[] visited = new boolean[n];
         int count = 0;
-
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 bfs(i, adjacencyList, visited);
