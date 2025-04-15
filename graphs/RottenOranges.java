@@ -28,7 +28,8 @@ public class RottenOranges {
         if (freshOranges == 0) {
             return 0;
         }
-        while (!queue.isEmpty()) {
+        while (!queue.isEmpty())
+        {
             int size = queue.size();
             boolean rottenNow = false;
             for (int i = 0; i < size; i++) {
