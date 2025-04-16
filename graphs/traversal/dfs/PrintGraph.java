@@ -1,4 +1,4 @@
-package graphs.dfs;
+package graphs.traversal.dfs;
 
 import java.util.*;
 

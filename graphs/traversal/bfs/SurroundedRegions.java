@@ -1,4 +1,4 @@
-package graphs;
+package graphs.traversal.bfs;
 
 import java.util.LinkedList;
 
