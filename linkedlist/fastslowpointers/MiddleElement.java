@@ -1,7 +1,7 @@
 package linkedlist.fastslowpointers;
 
 public class MiddleElement {
-    public ListNode middleOfLinkedList(ListNode head) {
+    public static ListNode middleNode(ListNode head) {
         ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
