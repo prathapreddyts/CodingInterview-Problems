@@ -1,11 +1,11 @@
 package linkedlist.fastslowpointers;
 
 public class RemoveNthNodeFromEnd {
-    public static linkedlist.fastslowpointers.ListNode removeNthLastNode(linkedlist.fastslowpointers.ListNode head, int n) {
-        linkedlist.fastslowpointers.ListNode dummy = new linkedlist.fastslowpointers.ListNode(0);
+    public static ListNode removeNthLastNode(linkedlist.fastslowpointers.ListNode head, int n) {
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
-        linkedlist.fastslowpointers.ListNode fast = dummy;
-        linkedlist.fastslowpointers.ListNode slow = dummy;
+        ListNode fast = dummy;
+        ListNode slow = dummy;
         for (int i = 0; i <= n; i++) {
             fast = fast.next;
         }
