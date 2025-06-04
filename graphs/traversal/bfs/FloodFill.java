@@ -9,8 +9,9 @@ public class FloodFill {
         int cols = image[0].length;
         int orgColor = image[sr][sc];
 
-        if (orgColor == newColor) return image; // Early exit if no change needed
-
+        if (orgColor == newColor){
+            return image;
+        }
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{sr, sc});
         image[sr][sc] = newColor; // Mark starting pixel
