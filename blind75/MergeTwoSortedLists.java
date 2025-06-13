@@ -1,4 +1,4 @@
-package blind75.easy;
+package blind75;
 
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
