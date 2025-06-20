@@ -13,7 +13,6 @@ package recursionbacktracking.tuf;
                 return;
             }
 
-            // Include the current character
             printSubsequences(str, current + str.charAt(index), index + 1);
 
             // Exclude the current character
