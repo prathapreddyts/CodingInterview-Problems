@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class IsPalindrome {
     public boolean palindromeCheck(String s) {

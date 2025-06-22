@@ -1,4 +1,4 @@
-package recursionbacktracking.scaler;
+package recursionbacktracking.leetcodepractices;
 
 public class NFactorial {
     public int factorialOfN(int n) {

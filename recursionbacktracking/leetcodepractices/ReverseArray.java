@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class ReverseArray {
     public int[] reverseArray(int[] nums) {

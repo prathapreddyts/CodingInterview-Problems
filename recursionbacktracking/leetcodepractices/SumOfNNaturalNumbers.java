@@ -1,4 +1,4 @@
-package recursionbacktracking.scaler;
+package recursionbacktracking.leetcodepractices;
 
 public class SumOfNNaturalNumbers {
     public static void main(String[] args) {

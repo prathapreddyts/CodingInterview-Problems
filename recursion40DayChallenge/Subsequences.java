@@ -1,4 +1,4 @@
-package recursionbacktracking.tuf;
+package recursion40DayChallenge;
 
 
     public class Subsequences {
@@ -12,10 +12,7 @@ package recursionbacktracking.tuf;
                 System.out.println(current);
                 return;
             }
-
             printSubsequences(str, current + str.charAt(index), index + 1);
-
-            // Exclude the current character
             printSubsequences(str, current, index + 1);
         }
     }

@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class IsGivenPrimeNumber {
     public boolean checkPrime(int num) {

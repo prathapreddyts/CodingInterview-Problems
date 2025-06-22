@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class Factorial {
     public long factorial(int n) {

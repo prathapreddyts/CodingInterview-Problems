@@ -1,4 +1,4 @@
-package recursionbacktracking.scaler;
+package recursionbacktracking.leetcodepractices;
 
 public class FibnacciSeries {
     public int fibNseries(int n) {

@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class SumOfArrayElements {
     public int arraySum(int[] nums) {

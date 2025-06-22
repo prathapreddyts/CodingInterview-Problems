@@ -1,4 +1,4 @@
-package recursionbacktracking.recursion;
+package recursionbacktracking.leetcodepractices;
 
 public class SumOfNNumbers {
     public int NnumbersSum(int n) {
