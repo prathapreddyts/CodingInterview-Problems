@@ -40,7 +40,7 @@ public class LeftViewTree {
                     firstNode = ((LinkedList<TreeNode>) nodeQueue).getFirst();
                 }
             } else {
-                nodeQueue.poll(); // dequeue
+                nodeQueue.poll();
             }
         }
 
