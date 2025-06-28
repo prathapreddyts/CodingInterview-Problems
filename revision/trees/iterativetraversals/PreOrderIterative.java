@@ -1,4 +1,4 @@
-package revision.trees.narasimhaKarumanchi;
+package revision.trees.iterativetraversals;
 
 import revision.trees.TreeNode;
 
