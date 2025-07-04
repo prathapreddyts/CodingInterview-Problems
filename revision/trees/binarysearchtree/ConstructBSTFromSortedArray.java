@@ -11,13 +11,13 @@ public class ConstructBSTFromSortedArray {
 
         TreeNode root = null;
         Queue<NodeMeta> queue = new LinkedList<>();
-        queue.offer(new NodeMeta(0, nums.length - 1, null, false)); // Initial range
+        queue.offer(new NodeMeta(0, nums.length - 1, null, false));
 
         while (!queue.isEmpty()) {
             NodeMeta meta = queue.poll();
             int low = meta.low;
             int high = meta.high;
-            TreeNode currentParent=meta.parent;
+            TreeNode currentParent = meta.parent;
 
             if (low > high) continue;
 
