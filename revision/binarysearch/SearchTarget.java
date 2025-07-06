@@ -1,9 +1,7 @@
 package revision.binarysearch;
 
 public class SearchTarget {
-    public int search(int[] nums, int target) {
-        return searchIndexHelper(nums, target);
-    }
+
 
     private int searchIndexHelper(int[] nums, int target) {
         int start = 0;
