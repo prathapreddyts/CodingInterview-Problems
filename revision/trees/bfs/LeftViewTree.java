@@ -47,4 +47,33 @@ public class LeftViewTree {
         return leftSideViewList;
     }
 
+    public void leftViewOfTree(TreeNode root) {
+        TreeNode current = root;
+        TreeNode firstNode = null;
+        Queue<TreeNode> queue = new LinkedList<>();
+        if (current != null) {
+            queue.add(current);
+            firstNode = current;
+        }
+        while (!queue.isEmpty()) {
+            TreeNode peekNode = queue.peek();
+            if (peekNode.left != null) {
+                queue.add(peekNode.left);
+            }
+            if (peekNode.right != null) {
+                queue.add(peekNode.right);
+            }
+            if (peekNode == firstNode) {
+                System.out.println(peekNode.data);
+                queue.poll();
+                if (!queue.isEmpty()) {
+                    firstNode = ((LinkedList<TreeNode>) queue).getFirst();
+                }
+            } else {
+                queue.poll();
+            }
+
+        }
+    }
+
 }
